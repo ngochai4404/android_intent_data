@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.hai.bai2.activity.StudentsActivity">
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_country"
+        android:hint="Quê quán"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_birthday"
+        android:hint="Ngày sinh"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_sex"
+        android:hint="Giới tính"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_class"
+        android:hint="Lớp học"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_course"
+        android:hint="Khóa học"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="next"
+        android:onClick="next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
